@@ -1,0 +1,15 @@
+version: '3.8'
+services: 
+  api:
+    build: .
+    container_name: fast-api
+    ports: 
+      - 80:15400
+    volumes: 
+      - ./api:/api
+      
+   
+#  mysql_data:
+
+
+
